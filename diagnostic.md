@@ -40,7 +40,8 @@ Inside the Ember Application Router, that's where we define our URL paths and lo
 
     The first one creates a nested route, that will be a child of the products route,
     meaning that the full path for a product url will just be the '/:product_id', where :product_id is whatever id we put into it. They will likely both look the same in the URL
-    bar, but must be accessed directly in different ways.
+    bar, but must be accessed directly in different ways. This second one does not follow
+    convention, from what I can tell, and will likely cause some bugs.
     ```
 
 1.  Suppose we have the following route definition:
